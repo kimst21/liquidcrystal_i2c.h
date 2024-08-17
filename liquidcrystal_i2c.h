@@ -55,7 +55,7 @@
 #define RS 0x01
 
 /* Device I2C Address */
-#define DEVICE_ADDR     (0x27 << 1)  //0x4e
+#define DEVICE_ADDR     (0x27 << 1)  // LCD I2C address
 
 void HD44780_Init(uint8_t rows);
 void HD44780_Clear();
